@@ -15,6 +15,6 @@ sed -i '/SRVTYPE=wrapped_tiger/,/SRVTYPE=wrapped_tiger/{s/^SRVTYPE=wrapped_tiger
 sed -i '/wrapped_tight)/,/sudo/{s/-localhost //}' /etc/init.d/vnc.sh
 
 GEOMETRY=${1:-2560x1800}
-$DPI=${2:-308}
+DPI=${2:-308}
 
 /etc/init.d/vnc.sh $GEOMETRY $DPI
