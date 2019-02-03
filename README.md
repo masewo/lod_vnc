@@ -34,11 +34,12 @@ You may change geometry and dpi by adding them to the start script as arguments:
 sudo lod_vnc/startvnc.sh 1920x1080 100
 ```
 
-After start script was executed you can not run the normal linux on dex GUI on a display connected via hdmi adapter anymore. To make it work again you have to run the stop script.
+
 
 ## Limitations
 
-The screen of your phone has to be on and the linux on dex app in terminal mode in the foreground otherwise vnc connections will pause.
+* The screen of your phone has to be on and the linux on dex app in terminal mode in the foreground otherwise vnc connections will pause.
+* After start script was executed you can not run the normal linux on dex GUI on a display connected via hdmi adapter anymore. To make it work again you have to run the stop script first. You cannot have both at the same time.
 
 ## Contributing
 
