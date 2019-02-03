@@ -1,6 +1,6 @@
 # lod_vnc
 
-Some scripts to make VNC connections work on Linux on DeX. Tested okay on a Samsung Galaxy Note 9.
+Some scripts to make VNC connections over WiFi work on Linux on DeX. Tested okay on a Samsung Galaxy Note 9 and a Pixel C with bVNC as a client.
 
 ## Getting Started
 
@@ -28,6 +28,8 @@ sudo lod_vnc/startvnc.sh
 sudo lod_vnc/stopvnc.sh
 ```
 
+Limitations: The screen of your phone has to be on and the linux on dex app in terminal mode in the foreground otherwise vnc connections will pause.
+
 ## Contributing
 
 Feel free to fork and so on.
@@ -36,11 +38,11 @@ Feel free to fork and so on.
 
 * **masewo** - *Initial work* - [masewo](https://github.com/masewo)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/masewo/lod_vnc/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
